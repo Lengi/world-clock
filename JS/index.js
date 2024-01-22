@@ -23,8 +23,8 @@ function updateTime() {
     );
   }
 
-  let syndeyElement = document.querySelector("#sydney");
-  if (syndeyElement) {
+  let sydneyElement = document.querySelector("#sydney");
+  if (sydneyElement) {
     let sydneyDateElement = sydneyElement.querySelector(".date");
     let sydneyTimeElement = sydneyElement.querySelector(".time");
     let sydneyTime = moment().tz("Australia/Sydney");
